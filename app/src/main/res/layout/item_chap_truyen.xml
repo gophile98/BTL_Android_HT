@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="5dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txvTenChaps"
+        android:textColor="#F000"
+        android:textSize="18sp"
+        android:text="Chap 1"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:id="@+id/txvNgayUpdata"
+        android:textColor="#3C3939"
+        android:textSize="18sp"
+        android:text="28-10-2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>
